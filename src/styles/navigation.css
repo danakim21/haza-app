@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  height: 30px;
+  background-color: #3da9fc;
+  padding: 1%;
+  font-size: 18px;
+}
+
+nav p {
+  flex: 8;
+  color: white;
+  margin: 0;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 30px;
+}
+
+nav #incomplete {
+  flex: 1;
+  color: white;
+}
+
+nav #complete {
+  flex: 1;
+  color: #094067;
+}

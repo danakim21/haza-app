@@ -1,0 +1,14 @@
+#taskList {
+  list-style-type: none;
+}
+
+#taskList div {
+  display: flex;
+}
+
+.addNewTask input {
+  color: white;
+  background-color: #90b4ce;
+  border-radius: 10px;
+  border: none;
+}
