@@ -1,11 +1,42 @@
-nav #completed {
-  color: white;
+#completedTaskList {
+  padding-inline-start: 0;
+  list-style-type: none;
+  margin-left: 13px;
 }
 
-nav #incomplete {
-  color: #5f6c7b;
+#completedTaskList div {
+  display: flex;
+  margin-top: 2.5%;
 }
 
-nav #incomplete:hover {
-  color: white;
+#completedTaskList div li {
+  flex: 8;
+  font-size: 17px;
+}
+
+#completedTaskList svg {
+  cursor: pointer;
+}
+
+#completedTaskList #completed-task-checkbox {
+  fill: #3da9fc;
+  flex: 1;
+}
+
+#completedTaskList #completed-task-checkbox:hover {
+  fill: gray;
+}
+
+#completedTaskList #completed-task-trash {
+  flex: 2;
+}
+
+#completedTaskList #completed-task-trash:hover {
+  fill: #ef4565;
+}
+
+.no-completed-tasks {
+  color: #ef4565;
+  margin-left: 40px;
+  margin-top: 30px;
 }

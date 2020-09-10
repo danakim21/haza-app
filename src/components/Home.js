@@ -4,7 +4,7 @@ import Navigation from "./Navigation.js";
 
 function NoTask() {
   let tasks = localStorage.getItem("activeTasks");
-  if (!tasks.length) {
+  if (!tasks || !tasks.length) {
     return <p class="no-tasks">There are no tasks</p>;
   }
   return "";
@@ -108,9 +108,9 @@ class Home extends React.Component {
             onChange={this.handleTaskChange}
             value={this.state.currentTask}
             placeholder="Add New Task"
-            class="inputNewTask"
+            className="inputNewTask"
           ></input>
-          <input type="submit" value="Add Task" class="submitNewTask" />
+          <input type="submit" value="Add Task" className="submitNewTask" />
         </form>
         <NoTask />
         <ul id="taskList">
@@ -129,11 +129,11 @@ class Home extends React.Component {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z"
                 />
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M1.5 13A1.5 1.5 0 0 0 3 14.5h10a1.5 1.5 0 0 0 1.5-1.5V8a.5.5 0 0 0-1 0v5a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V3a.5.5 0 0 1 .5-.5h8a.5.5 0 0 0 0-1H3A1.5 1.5 0 0 0 1.5 3v10z"
                 />
               </svg>

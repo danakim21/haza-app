@@ -11,7 +11,7 @@ function Navigation() {
   }
   return (
     <nav>
-      <p>{tasks.length} Incomplete Tasks</p>
+      <p>{tasks.length === 0 ? "0 Task" : `${tasks.length} Tasks`}</p>
       <Link to="/" id="incomplete">
         Incomplete
       </Link>

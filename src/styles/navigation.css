@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  height: 30px;
+  height: 40px;
   background-color: #3da9fc;
   padding: 1%;
   font-size: 18px;
@@ -12,14 +12,15 @@ nav p {
   flex: 8;
   color: white;
   margin: 0;
-  line-height: 30px;
+  line-height: 40px;
   font-weight: bold;
   margin-left: 5px;
+  margin-left: 30px;
 }
 
 nav a {
   text-decoration: none;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 nav #incomplete {
@@ -27,7 +28,7 @@ nav #incomplete {
 }
 
 nav #completed {
-  margin-right: 10px;
+  margin-right: 30px;
   margin-left: 25px;
   flex: 1;
 }
