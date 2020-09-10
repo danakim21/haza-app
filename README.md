@@ -1,5 +1,5 @@
 # Haza
 
-Haza is a simple todo list created with React.js
+Simple ToDo List with React.js
 
-ICON: https://icons.getbootstrap.com/
+- Icon: https://icons.getbootstrap.com/
