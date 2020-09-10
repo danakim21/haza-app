@@ -1,0 +1,11 @@
+nav #completed {
+  color: white;
+}
+
+nav #incomplete {
+  color: #5f6c7b;
+}
+
+nav #incomplete:hover {
+  color: white;
+}

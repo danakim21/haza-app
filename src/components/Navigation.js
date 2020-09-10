@@ -11,11 +11,11 @@ function Navigation() {
   }
   return (
     <nav>
-      <p>{tasks.length} Current Tasks</p>
+      <p>{tasks.length} Incomplete Tasks</p>
       <Link to="/" id="incomplete">
         Incomplete
       </Link>
-      <Link to="/completed" id="complete">
+      <Link to="/completed" id="completed">
         Completed
       </Link>
     </nav>
