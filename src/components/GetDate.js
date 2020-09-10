@@ -27,7 +27,7 @@ function GetDate() {
   // day
   let day = DAYS[newDate.getDay()];
 
-  return <h2>{`${year}/${month}/${date} ${day}`}</h2>;
+  return <h3>{`${year}/${month}/${date} ${day}`}</h3>;
 }
 
 export default GetDate;
