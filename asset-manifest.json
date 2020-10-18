@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/haza-app/static/css/main.6b36e00e.chunk.css",
-    "main.js": "/haza-app/static/js/main.9a51b465.chunk.js",
-    "main.js.map": "/haza-app/static/js/main.9a51b465.chunk.js.map",
+    "main.js": "/haza-app/static/js/main.e23759e6.chunk.js",
+    "main.js.map": "/haza-app/static/js/main.e23759e6.chunk.js.map",
     "runtime-main.js": "/haza-app/static/js/runtime-main.87085d7c.js",
     "runtime-main.js.map": "/haza-app/static/js/runtime-main.87085d7c.js.map",
     "static/js/2.a060aa62.chunk.js": "/haza-app/static/js/2.a060aa62.chunk.js",
     "static/js/2.a060aa62.chunk.js.map": "/haza-app/static/js/2.a060aa62.chunk.js.map",
     "index.html": "/haza-app/index.html",
-    "precache-manifest.a0d1cf344ec7b23359186d0e5963b798.js": "/haza-app/precache-manifest.a0d1cf344ec7b23359186d0e5963b798.js",
+    "precache-manifest.36302d5024b192f9afe2188787866281.js": "/haza-app/precache-manifest.36302d5024b192f9afe2188787866281.js",
     "service-worker.js": "/haza-app/service-worker.js",
     "static/css/main.6b36e00e.chunk.css.map": "/haza-app/static/css/main.6b36e00e.chunk.css.map",
     "static/js/2.a060aa62.chunk.js.LICENSE.txt": "/haza-app/static/js/2.a060aa62.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.87085d7c.js",
     "static/js/2.a060aa62.chunk.js",
     "static/css/main.6b36e00e.chunk.css",
-    "static/js/main.9a51b465.chunk.js"
+    "static/js/main.e23759e6.chunk.js"
   ]
 }

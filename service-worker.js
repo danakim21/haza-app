@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/haza-app/precache-manifest.a0d1cf344ec7b23359186d0e5963b798.js"
+  "/haza-app/precache-manifest.36302d5024b192f9afe2188787866281.js"
 );
 
 self.addEventListener('message', (event) => {
