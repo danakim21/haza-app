@@ -47,7 +47,7 @@ $ npm start
 
 ## Scope of Functionalities
 
-List of features ready and to-dos for future development
+List of features ready 
 
 - Add tasks, Delete tasks, Complete tasks
 - Incomplete completed tasks
