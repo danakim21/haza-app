@@ -5,7 +5,7 @@ import Navigation from "./Navigation.js";
 function NoTask() {
   let tasks = localStorage.getItem("activeTasks");
   if (!tasks || !tasks.length) {
-    return <p class="no-tasks">There are no tasks</p>;
+    return <p className="no-tasks">There are no tasks</p>;
   }
   return "";
 }
